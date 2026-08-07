@@ -1,3 +1,8 @@
+//For functional verification, I used TCP traffic derived from the UNSW-NB15 cybersecurity dataset.
+I extracted the required packet fields—such as source/destination IPs, ports, sequence number, acknowledgement number, and TCP flags—and converted them into a hexadecimal memory file (.mem).
+My Verilog testbench loads this file using $readmemh() and replays each packet into the stateful firewall to verify connection establishment, data transfer, connection teardown, and packet classification."
+
+
 # run 1000ns
 
 PACKET 1
