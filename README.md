@@ -20,8 +20,8 @@ This project implements a **Stateful TCP Firewall** in Verilog that tracks TCP c
 - CSV-driven packet replay testbench
 
 ---
-
-
+## Block diagram
+<img width="1599" height="899" alt="WhatsApp Image 2026-08-06 at 00 14 11" src="https://github.com/user-attachments/assets/3dfac47e-0966-4db1-8262-7a3decc8d4dd" />
 
 
 
